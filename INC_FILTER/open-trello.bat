@@ -1,0 +1,1 @@
+call "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" "%1" --profile-directory="XProfiles"

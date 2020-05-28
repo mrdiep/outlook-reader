@@ -1,0 +1,38 @@
+﻿{
+	"ClosedFolderName": "CLOSED",
+	"ScanChildFolder": false,
+	"ScanFolders": [ "Mục đã Gửi", "INC_FEEDBACK", "Inbox", "Sent Items", "Hộp thư đến" ],
+	"MyXFptMembers": [ "B", "A" ],
+	"HighlightSenders": [
+		{
+			"Values": [ "contains name sender" ],
+			"Color": [ 255, 153, 0 ]
+		},
+		{
+			"Values": [ "Diep" ],
+			"Color": [ 179, 0, 0 ]
+		},
+		{
+			"Values": [ "contains name" ],
+			"Color": [ 204, 102, 153 ]
+		}
+	],
+	"HighlightTrelloStatus": [
+		{
+			"Values": [ "DEV-IN-PROGRESS" ],
+			"Color": [ 153, 0, 51 ]
+		},
+		{
+			"Values": [ "PENDING" ],
+			"Color": [ 204, 153, 0 ]
+		},
+		{
+			"Values": [ "NEW" ],
+			"Color": [ 255, 51, 0 ]
+		},
+		{
+			"Values": [ "RESOLVED" ],
+			"Color": [ 0, 153, 51 ]
+		}
+	]
+}

@@ -1,0 +1,19 @@
+﻿<mah:MetroWindow x:Class="INC_FILTER.TrelloHasNoEmail"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:INC_FILTER"
+        mc:Ignorable="d"
+        xmlns:mah="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        Title="Trello Has No Email" Height="450" Width="408.213">
+    <Grid>
+        <ListView x:Name="incListView">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding}"/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+</mah:MetroWindow>
